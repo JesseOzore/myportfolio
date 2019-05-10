@@ -1,0 +1,136 @@
+ html {
+     scroll-behavior: smooth;
+ }
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ body{
+    width:100%;
+    height:100%;
+    font-family:Arial;
+    }
+    #jesseBody {
+        width:100%;
+        height:100vh;
+    }
+    #header{
+       height:auto;
+    }
+  #image{
+        width:100%;
+        height:auto;
+    }
+    #image img{
+        width: 100%;
+    }
+    
+    #nav{
+        width: 20px;
+        height:30px;
+        position: absolute;
+        top:2px;
+        left:30px;
+    }
+    #nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    #nav li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+        display:block;
+        padding: 15px 10px;
+    }
+    a:hover{
+        color:gold;
+    }
+    .list{
+
+        display:inline-block;
+    }
+
+    .list li{
+
+        display:inline-block;
+    }
+    
+    #jesseInfo {
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        height: auto;
+    }
+    #portfolio {
+        width: 40%;
+        padding: 10px;
+    }
+    #portfolio h3 {
+        font-size:25px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #portfolio input[type="text"], #portfolio input[type="submit"],  #portfolio textarea {
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid black;
+        width:90%;
+        background:none;
+        margin: 0px 0px 15px 0px;
+    }
+    #portfolio textarea {
+        resize: none;
+    }
+    #portfolio input[type="submit"]:hover {
+        background: black;
+        color:white;
+    }
+    #aboutJesse {
+        width:60%;
+        padding: 10px;
+    }
+    #matric{
+        width:100%;
+        margin-bottom: 10px;
+        }
+    #matric img{
+        width:100%;
+    }
+    #skills{
+            width:100%;
+
+    }
+    .cve {
+        width: 40%;
+        text-align:center;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid  lightcoral;
+        background: lightcoral;
+        color: white;
+    }
+    #skills input[name="cv"]:hover {
+        background: white;
+        color:  lightcoral;
+    }
+    #pictures{ 
+        width:100%;
+        height:100px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        background: green;
+    }
+    #pictures img{
+        width:25%;
+        height: auto;
+    }
+    #footer{
+        border:1px solid black;
+        height:70px;
+        text-align:center;
+        background-color: grey;
+    }
